@@ -1,8 +1,8 @@
-function add(number1, number2) {
+const addNumbers = (number1, number2) => {
     console.log("Addition is "+(number1+number2));
 }
 
-add();
-add(1);
-add(1,2);
-add(1,2,3);
+addNumbers();
+addNumbers(1);
+addNumbers(1,2);
+addNumbers(1,2,3);
