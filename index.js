@@ -41,3 +41,11 @@ const todos = [
 todos.forEach(function(todo){
     console.log(todo);
 });
+
+
+// This will dynamically become an Array
+let allTodosText = todos.map(function(todo){
+    return todo.text
+});
+
+console.log(allTodosText);
