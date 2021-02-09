@@ -49,3 +49,11 @@ let allTodosText = todos.map(function(todo){
 });
 
 console.log(allTodosText);
+
+
+// This will dynamically become an Array
+let allCompletedTodos = todos.filter(function(todo){
+    return todo.isCompleted === true;
+});
+
+console.log(allCompletedTodos);
